@@ -1,0 +1,31 @@
+{
+    "file": "https://raw.githubusercontent.com/manishkhairnar3-stack/ManishK_MSG_Analysis/refs/heads/main/Manish_K_MSG_Data_forUpset.csv",
+    "name": "MSG_Dataset_ManishK_Analysis.json",
+    "header": 0,
+    "separator": ",",
+    "skip": 0,
+    "meta": [
+        { "type": "id", "index": 0, "name": "Gene" },
+        { "type": "integer", "index": 1, "name": "M_Control_Exp" },
+        { "type": "integer", "index": 2, "name": "Meningitis_Exp" },
+        { "type": "integer", "index": 3, "name": "M_Regulated" },
+        { "type": "integer", "index": 4, "name": "M_UP" },
+        { "type": "integer", "index": 5, "name": "M_DOWN" },
+        { "type": "integer", "index": 6, "name": "S_Control_Exp" },
+        { "type": "integer", "index": 7, "name": "Stroke_Exp" },
+        { "type": "integer", "index": 8, "name": "S_Regulated" },
+        { "type": "integer", "index": 9, "name": "S_UP" },
+        { "type": "integer", "index": 10, "name": "S_DOWN" },
+        { "type": "integer", "index": 11, "name": "GB_Control_Exp" },
+        { "type": "integer", "index": 12, "name": "Glioblastoma_Exp" },
+        { "type": "integer", "index": 13, "name": "GB_Regulated" },
+        { "type": "integer", "index": 14, "name": "GB_UP" },
+        { "type": "integer", "index": 15, "name": "GB_DOWN" },
+        { "type": "realnumber", "index": 16, "name": "M_Log2FC" },
+        { "type": "realnumber", "index": 17, "name": "S_Log2FC" },
+        { "type": "realnumber", "index": 18, "name": "GB_Log2FC" }
+    ],
+    "sets": [
+        { "format": "binary", "start": 1, "end": 15 }
+    ]
+}
