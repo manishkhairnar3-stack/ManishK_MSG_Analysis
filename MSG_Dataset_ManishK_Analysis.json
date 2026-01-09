@@ -23,7 +23,11 @@
         { "type": "integer", "index": 15, "name": "GB_DOWN" },
         { "type": "realnumber", "index": 16, "name": "M_Log2FC" },
         { "type": "realnumber", "index": 17, "name": "S_Log2FC" },
-        { "type": "realnumber", "index": 18, "name": "GB_Log2FC" }
+        { "type": "realnumber", "index": 18, "name": "GB_log2FC" },
+        { "type": "realnumber", "index": 19, "name": "M_AdjP" },
+        { "type": "realnumber", "index": 20, "name": "S_AdjP" },
+        { "type": "realnumber", "index": 21, "name": "GB_AdjPC" },
+        { "type": "realnumber", "index": 22, "name": "GeneID" }
     ],
     "sets": [
         { "format": "binary", "start": 1, "end": 15 }
